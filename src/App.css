@@ -1,0 +1,36 @@
+body {
+  font-family: var(--ff);
+  font-size: var(--fs);
+  font-weight: var(--fw-regular);
+}
+
+#root {
+  width: 100%;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--text-question-active);
+  padding-bottom: 28px;
+}
+
+p {
+  line-height: 18px;
+  color: var(--text-response);
+}
+
+button {
+  font-family: var(--ff);
+  color: var(--text-question);
+  background-color: var(--bg-faq);
+  font-size: 14px;
+  line-height: 17px;
+}

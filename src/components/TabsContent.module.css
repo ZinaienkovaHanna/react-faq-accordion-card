@@ -1,0 +1,41 @@
+.tabsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.tabContainer img {
+  width: 8px;
+}
+
+.tabContainer img.active {
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.tab {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid var(--border-tabs);
+  width: 350px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.tab.active {
+  font-weight: 700;
+  color: var(--text-question-active);
+}
+
+.tabContent {
+  display: none;
+  max-width: 320px;
+}
+
+.tabContent.active {
+  display: block;
+}
+
+.arrow {
+  margin-right: 12px;
+}
