@@ -1,7 +1,7 @@
-.tabsContainer {
-  display: flex;
-  flex-direction: column;
-}
+/* .tabsContainer h2 {
+  text-align: center;
+} */
+
 .tabContainer img {
   width: 8px;
 }
@@ -17,9 +17,12 @@
   align-items: center;
   border: none;
   border-bottom: 1px solid var(--border-tabs);
-  width: 350px;
+  min-width: 303px;
   height: 52px;
   cursor: pointer;
+}
+.tab:hover {
+  color: var(--text-question-hover);
 }
 
 .tab.active {
@@ -29,7 +32,7 @@
 
 .tabContent {
   display: none;
-  max-width: 320px;
+  max-width: 300px;
 }
 
 .tabContent.active {
@@ -38,4 +41,10 @@
 
 .arrow {
   margin-right: 12px;
+}
+
+@media (min-width: 1200px) {
+  .tab {
+    max-width: 350px;
+  }
 }

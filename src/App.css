@@ -1,17 +1,12 @@
-body {
-  font-family: var(--ff);
-  font-size: var(--fs);
-  font-weight: var(--fw-regular);
-}
-
 #root {
   width: 100%;
   overflow: hidden;
 }
 
-img {
-  display: block;
-  width: 100%;
+body {
+  font-family: var(--ff);
+  font-size: var(--fs);
+  font-weight: var(--fw-regular);
 }
 
 h2 {

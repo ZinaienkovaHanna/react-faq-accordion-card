@@ -11,7 +11,7 @@ const TabsContent = () => {
   };
 
   return (
-    <div>
+    <div className={styles.tabsContainer}>
       <h2>FAQ</h2>
       <div className={styles.tabsContainer}>
         {data.map((tab, i) => (

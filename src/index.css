@@ -9,6 +9,7 @@
 :root {
   /* Colors */
   --text-question-active: #1e1f36;
+  --text-question-hover: #f47b56;
   --text-question: #4b4c5f;
   --text-response: #787887;
   --bg-gradient-first: #b068e9;
