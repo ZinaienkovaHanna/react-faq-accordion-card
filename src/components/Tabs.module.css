@@ -17,6 +17,7 @@
   height: 52px;
   cursor: pointer;
 }
+
 .tab:hover {
   color: var(--text-question-hover);
 }

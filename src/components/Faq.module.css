@@ -9,6 +9,19 @@
   overflow-y: scroll;
 }
 
+.imgBoxContainer {
+  margin: auto;
+  position: relative;
+}
+
+.imgBox {
+  display: none;
+  position: absolute;
+  left: -10%;
+  top: 43%;
+  z-index: 1;
+}
+
 .faqContainer {
   margin: 148px auto;
   padding: 24px;
@@ -22,7 +35,6 @@
   background-position: 45px 5px;
   background-repeat: no-repeat;
   position: relative;
-  touch-action: auto;
 }
 
 .imgWoman {
@@ -31,13 +43,6 @@
   width: 236.85px;
   top: -105px;
   left: 45px;
-}
-
-.imgBox {
-  display: none;
-  position: relative;
-  left: -115px;
-  top: 38%;
 }
 
 .tabsContainer {
@@ -51,6 +56,7 @@
 
 @media (min-width: 1200px) {
   .faqContainer {
+    margin: 48px auto;
     width: 920px;
     height: 509px;
     display: flex;
@@ -59,6 +65,7 @@
     background-image: url(../../public/images/bg-pattern-desktop.svg);
     background-size: 100%;
     background-position: -530px -270px;
+    overflow: hidden;
   }
 
   .imgWoman {
