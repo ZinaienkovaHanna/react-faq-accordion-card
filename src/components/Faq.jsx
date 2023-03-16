@@ -1,11 +1,11 @@
 import styles from './Faq.module.css';
-import TabsContent from './TabsContent';
+import Tabs from './Tabs';
 
 const Faq = () => {
   return (
-    <div className={styles.bgContainer}>
+    <section className={styles.bgContainer}>
       <div className={styles.faqContainer}>
-        <div className={styles.imgContainer}>
+        <div>
           <img
             src="/images/illustration-woman-online-mobile.svg"
             alt="woman"
@@ -16,17 +16,18 @@ const Faq = () => {
             alt="woman"
             className={styles.imgWoman}
           />
-          {/* <img
+          <img
             src="/images/illustration-box-desktop.svg"
             alt="box"
             className={styles.imgBox}
-          /> */}
+          />
         </div>
         <div className={styles.tabsContainer}>
-          <TabsContent />
+          <h2>FAQ</h2>
+          <Tabs />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
